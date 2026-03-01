@@ -52,7 +52,7 @@ def baixar_arquivo(url, pasta_destino="."):
     return caminho_saida
 
 
-for i in range(2015, 2024):
+for i in range(2009, 2010):
     url = f"https://download.inep.gov.br/microdados/microdados_enem_{i}.zip"
     try:
         caminho = baixar_arquivo(url, pasta_destino="downloads")
